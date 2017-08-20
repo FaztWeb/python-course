@@ -17,3 +17,14 @@ str(78.2) # '78.2'
 
 round(45.57) # most high value
 round(1.256, 2) # 1.26
+
+# help
+mytyple = (2, 4, 5)
+help(mytuple)
+
+# type
+type(3) # class 'int'
+
+# dir
+mytuple = (1, 2, 3)
+dir(mytuple) #methods for this type of data

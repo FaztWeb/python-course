@@ -1,18 +1,14 @@
-# STRINGS
-print '03045'
-print 'house'
-print """
-        This is a line
-        This is other line
-"""
+# python 3
+mensaje1 = 'mensaje entre comillas simples'
+mensaje2 = "mensaje entre comillas dobles"
+mensaje3 = ''' un
+		mensaje
+		multi
+	lineas '''
 
-# concatenation
-print 'blue' + ' house' # blue house
+print(mensaje1)
+print(mensaje2)
+print(mensaje3)
 
-# comparation
-print 'alphabet' == 'bee' # False
-
-print 'Hello' != 'hello' #True
-
-# python use the values of ascii table
-print "Hello" > "hello" # False
+# conversion
+print(str(5) + str(10)) #"510"

@@ -5,5 +5,6 @@ d = {
     "age": 20
     }
 
-print d
-print d['name']
+print(d)
+print(len(d))
+print(d["name"])

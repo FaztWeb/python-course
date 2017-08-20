@@ -1,3 +1,6 @@
+def nothing():
+    pass
+
 # the string is called, "docstring"
 
 def my_function(param1, param2):

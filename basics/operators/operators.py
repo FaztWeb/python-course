@@ -35,3 +35,18 @@ print 2**3**2 # 512
 # 6 * 8
 # 50 - 1 = 49
 print 2 + 6 * 8 - 5 / -9 % 2 # 49
+
+
+x = 10 
+y = 2
+
+add = x + y
+subtract = x - y
+
+division = x / y # 5.0
+integerDivision = x // y # 5
+module = x % y # 0
+
+exponent = y**3  # 8
+
+print(exponent)
