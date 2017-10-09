@@ -1,7 +1,7 @@
 # Python Course
 ![](docs/python_fazt.png)
 
-# What programms can i build?
+# What programms can i build with python?
 you can build in python:
 - Console applications
 - Desktop applications
@@ -11,7 +11,7 @@ you can build in python:
 - Identation
 - Case Sensitive
 
-# Tools
+# Tools for this course
 - [Atom Editor](https://atom.io/)
 - [platform io terminal](https://atom.io/packages/platformio-ide-terminal)
 
@@ -24,17 +24,3 @@ you can build in python:
 # Installing
 - Installating Python (windows, mac, linux)
 - IDLE
-
-# Course
-- hello-world.py
-- variables/
-	- comments
-- types/
-- functions/
-
-- modules:
-	- turtle
-	- importing modules
-	- using functions of the modules
-	- loops
-	- blocks(identations)
