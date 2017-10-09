@@ -2,7 +2,8 @@
 d = {
     "name": "Jesus",
     "surname": "Fazt",
-    "age": 20
+    "age": 20,
+    "cities": ("Rio", "London", "San Francisco")
     }
 
 print(d)
