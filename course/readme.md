@@ -1,12 +1,16 @@
-# Course
+# Part I
 - hello-world.py
 - variables/
 	- comments
 - types/
 - functions/
 - control_flow/
+- modules/
+- examples/
+	- names_generator.py
 
-- modules:
+## Part II
+
 	- turtle
 	- importing modules
 	- using functions of the modules
