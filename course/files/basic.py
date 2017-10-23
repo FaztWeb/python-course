@@ -1,20 +1,23 @@
-def createFile():
-    file = open('data.txt', 'w')
-    file.close()
+# To read files
+file = open('data.txt', 'r')
 
-def writeFile():
-    #a is to append data to the file
-    file = open('data.txt', 'a')
-    file.write('Isaac Asimov\n')
-    file.write('546445')
-    file.close()
+type(file) # textIOWrapper
 
-def readFile():
-    file = open('data.txt', 'r')
-    line = file.readline()
-    while line != "":
-        print(line)
-        line = file.readline()
-    file.close()
-    
-readFile()
+content = file.read() 
+
+type(content) #str
+
+# this returns [] because the pointer
+# is not in the beginning
+content = file.readlines()
+
+# so we have to use 
+file.seek(0)
+
+# and then we can obtain a list of the content
+content = file.readlines()
+
+# to remove \n we can use rstrip to compare
+content = [i.rstrip("\n") for i in content]
+
+# To Open Files

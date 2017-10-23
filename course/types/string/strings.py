@@ -25,8 +25,22 @@ message4[-1] #!
 message4[0:3] # Hel
 message4[1:] # ello!
 message4[-3: -1]
-message4[-3:] 
+message4[-3:]
 
 
 # conversion
 print(str(5) + str(10)) #"510"
+
+"hello".capitalize()
+"hello".swapcase()
+len("mystring")
+"hello world".replace('world', 'Coders')
+
+# to count o in the string
+"hello world".count(o)
+
+# start with
+"Hello World".starswith('Hello') # true
+"Hello World".endswith('World') # true
+"Hello world".split()
+"Hello world".find("e")

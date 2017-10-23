@@ -1,18 +1,16 @@
 # Part I
 - hello-world.py
-- variables/
 	- comments
 - types/
+- variables/
 - functions/
 - control_flow/
 - modules/
-- examples/
-	- names_generator.py
+- files/
 
 ## Part II
-
-	- turtle
-	- importing modules
-	- using functions of the modules
-	- loops
-	- blocks(identations)
+- turtle
+- importing modules
+- using functions of the modules
+- loops
+- blocks(identations)
