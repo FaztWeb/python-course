@@ -4,13 +4,12 @@
 - types/
 - variables/
 - functions/
+	- blocks(identations)
 - control_flow/
 - modules/
 - files/
+- classes
 
 ## Part II
 - turtle
-- importing modules
-- using functions of the modules
-- loops
-- blocks(identations)
+- pandas

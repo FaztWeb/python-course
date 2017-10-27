@@ -1,17 +1,15 @@
-myArray = ['Isaac', 'Aaron', 'Joe', 'Gordon']
+['Isaac', 'Aaron', 'Joe', 'Gordon']
 
-print(len(myArray))
+len(myArray)
 
 for name in myArray:
     print(name)
 
-myFirstList = [1, 2, 3]
-mySecondList = [4, 5, 6]
-myThirdList = myFirstList + mySecondList;
+[1, 2, 3]  + [4, 5, 6]
 
-if 1 in myFirstList:
+if 1 in [1, 2, 3]:
     print('it exits')
 else:
     print('does not exits')
 
-print(myArray[1:])
+myArray[1:]

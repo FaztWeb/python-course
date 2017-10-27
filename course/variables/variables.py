@@ -1,3 +1,6 @@
+# no white spaces
+# use underscores or camel case
+
 # this is called process assignation
 x = 456
 name = "Fazt"

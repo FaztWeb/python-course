@@ -1,35 +1,34 @@
-# python 3
-message1 = 'mensaje entre comillas simples'
-message2 = "mensaje entre comillas dobles"
-message3 = ''' un
-		mensaje
-		multi
-	lineas '''
+'mensaje entre comillas simples'
+"mensaje entre comillas dobles"
+''' a
+multi line
+message '''
 
-print(message1)
-print(message2)
-print(message3)
+# print("hello " + 1)# eror
+"hello " * 10
+
+#'he's my friend'
+'he\'s my friend'
 
 # to see all string methods
-dir(message1)
+dir("a string")
 
-# to obtain help
+# to obtain help for a replace method
 help("".replace)
 
 # concatenation
-print("hello " + "world")
+"hello " + "world"
 
-message4 = "Hello!"
-message4[1] #e
-message4[-1] #!
-message4[0:3] # Hel
-message4[1:] # ello!
-message4[-3: -1]
-message4[-3:]
-
+"hello"[0] # h
+"hello"[1] # e
+"hello!"[-1] # !
+"Hello"[0:3] # Hel
+"Hello!"[1:] # ello!
+"Hello!"[-3: -1] # lo
+"Hello!"[-3:] # lo!
 
 # conversion
-print(str(5) + str(10)) #"510"
+str(5) + str(10) # "510"
 
 "hello".capitalize()
 "hello".swapcase()
@@ -37,10 +36,15 @@ len("mystring")
 "hello world".replace('world', 'Coders')
 
 # to count o in the string
-"hello world".count(o)
+"hello world".count("o")
 
 # start with
-"Hello World".starswith('Hello') # true
+"Hello World".startswith('Hello') # true
 "Hello World".endswith('World') # true
 "Hello world".split()
+"Hello world".split("l") # ['He', '', 'o wor', 'd']
 "Hello world".find("e")
+
+"HELLO".lower() #hello
+"hello".upper() #HELLO
+"hELLO".title() # Hello

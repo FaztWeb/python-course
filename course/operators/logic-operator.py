@@ -26,6 +26,9 @@ print True and False or not False # True
 print True == True #True
 print True != False #False
 
+"H" in "Hello" # True
+"z" in "Hello" # False
+
 9 > 3
 3 < 2
 2 >= 1
