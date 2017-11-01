@@ -1,5 +1,5 @@
 # Part I
-- hello-world.py
+- hello-world/
 	- comments
 - types/
 - variables/

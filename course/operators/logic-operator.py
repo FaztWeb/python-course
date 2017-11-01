@@ -1,15 +1,24 @@
-print True
-print False
-
-# negation
-print not False
+True
+False
 
 # conjuncion
-print True and True
-print False and True
+True and True # True
+False and True # False
+True and False # False
+False and False # False
 
-#
-print True or False #
+
+True or False # True
+False or True # True
+True or True # True
+False or False # True
+
+# negation
+not False
+not True
+not ("black" == "white")
+
+# to know more learh Truth Tables
 
 # TO RESOLVE MULTIPLE OPERATORS
 # resolvs from left to rigth >>>

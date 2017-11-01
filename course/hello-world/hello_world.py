@@ -25,6 +25,6 @@ print('Line1\nLine2\nLine3')
 # raw print
 print(r'C:\\somepath\n')
 
-raw_input()
+input()
 
 # Tip- stay consisten with your quotes

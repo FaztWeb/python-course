@@ -17,10 +17,10 @@ you can build in python:
 
 # Usefull Commands
 - `python` or `idle3`  
+- `python myfile.py >> result.txt` 
 - python operadores.py
 - exit() , CTRL + D
 - Program: hello.py
-
 # Installing
 - Installating Python (windows, mac, linux)
 - IDLE

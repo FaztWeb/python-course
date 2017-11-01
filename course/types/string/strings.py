@@ -4,6 +4,9 @@
 multi line
 message '''
 
+# concatenation
+"hello " + "world"
+
 # print("hello " + 1)# eror
 "hello " * 10
 
@@ -13,11 +16,6 @@ message '''
 # to see all string methods
 dir("a string")
 
-# to obtain help for a replace method
-help("".replace)
-
-# concatenation
-"hello " + "world"
 
 "hello"[0] # h
 "hello"[1] # e
@@ -34,6 +32,9 @@ str(5) + str(10) # "510"
 "hello".swapcase()
 len("mystring")
 "hello world".replace('world', 'Coders')
+
+# to obtain help for a replace method
+help("".replace)
 
 # to count o in the string
 "hello world".count("o")
