@@ -2,14 +2,15 @@
 - hello-world/
 	- comments
 - types/
+- operators
 - variables/
 - functions/
 	- blocks(identations)
 - control_flow/
 - modules/
 - files/
-- classes
+- classes/
 
 ## Part II
-- turtle
 - pandas
+- turtle
