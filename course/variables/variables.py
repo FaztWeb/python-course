@@ -11,7 +11,7 @@ dos = 30
 print(x)
 print(name)
 
-# suma de numeros con variables
+# sum with variables
 result = uno + dos
 
 # is called a variable, because we can change the value
@@ -44,3 +44,10 @@ print(Hello == hello) # False, there are not the same
 # easy to read
 myNameIs = "Aaron"
 my_name_is = "Ryan"
+
+# asign multiple varaibles
+a = b = c = 1.5
+print(a, b, c) # 1.5 1.5 1.5
+
+one, two, three = 1, 'two', 3.0
+print(one, two, three)

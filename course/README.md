@@ -1,15 +1,15 @@
-# Part I
+# Course
 - hello-world/
 	- comments
 - types/
 - operators
 - variables/
+- control_flow/
 - functions/
 	- blocks(identations)
-- control_flow/
 - modules/
-- files/
 - classes/
+- files/
 
 ## Part II
 - pandas
