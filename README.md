@@ -1,9 +1,5 @@
 # Python Course
-![](docs/python_fazt.png)
-
-# Considerations
-- Identation
-- Case Sensitive
+This is a repository of python snippets to learn the language
 
 # Tools for this course
 - Python3

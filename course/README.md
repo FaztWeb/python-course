@@ -1,12 +1,11 @@
 # Course
 - hello-world/
-	- comments
 - types/
 - operators
 - variables/
 - control_flow/
 - functions/
-	- blocks(identations)
+- blocks(identations)
 - modules/
 - classes/
 - files/

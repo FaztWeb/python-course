@@ -1,5 +1,7 @@
 'mensaje entre comillas simples'
+
 "mensaje entre comillas dobles"
+
 ''' a
 multi line
 message '''
@@ -9,6 +11,12 @@ message '''
 
 # print("hello " + 1)# eror
 "hello " * 10
+
+# Scaped Characters
+print('Line1\nLine2\nLine3')
+
+# raw print
+print(r'C:\\somepath\n')
 
 #'he's my friend'
 'he\'s my friend'
