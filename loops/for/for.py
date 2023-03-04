@@ -20,3 +20,6 @@ for i in range(len(people)):
 
 for i in range(0, 10):
     print(i)
+
+for c in "python":
+    print(c)
