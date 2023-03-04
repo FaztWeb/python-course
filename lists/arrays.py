@@ -1,18 +1,24 @@
-['Isaac', 'Aaron', 'Joe', 'Gordon']
+# list
+print([10, 11.2, "hello", False])
 
-len(myArray)
+# list of names
+names = ['Isaac', 'Aaron', 'Joe', 'Gordon']
 
-for name in myArray:
+len(names)
+
+for name in names:
     print(name)
 
-[1, 2, 3]  + [4, 5, 6]
+print([1, 2, 3]  + [4, 5, 6])
 
+# check if item exists
 if 1 in [1, 2, 3]:
-    print('it exits')
+    print('item exits')
 else:
     print('does not exits')
 
-myArray[1:]
+# split
+names[1:]
 
 # ordered a list
 # a list is inmutable

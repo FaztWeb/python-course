@@ -6,6 +6,10 @@
 multi line
 message '''
 
+""" a
+multi line
+message """
+
 # concatenation
 "hello " + "world"
 
