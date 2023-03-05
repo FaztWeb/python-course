@@ -1,5 +1,6 @@
 
 # this is a comment
+city = "bogota" # user's city
 
 ''' this is a multiline
 comment written
