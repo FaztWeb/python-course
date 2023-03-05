@@ -5,6 +5,7 @@ fo = open('text.txt', 'w')
 print('Name: ', fo.name) # text.txt
 print('Is Closed: ', fo.closed) # False
 print('Opening mode:', fo.mode) #w
+
 # write in the file
 fo.write('practice with python')
 fo.write(' and files')

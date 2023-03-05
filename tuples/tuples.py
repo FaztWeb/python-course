@@ -1,5 +1,4 @@
 # tuples are inmutables
-
 t = (1, True, "Hello")
 
 print(t)
