@@ -4,14 +4,14 @@
 # this is called process assignation
 x = 456
 name = "Fazt"
-uno = 15
-dos = 30
 
 # x and name are variables
 print(x)
 print(name)
 
 # sum with variables
+uno = 15
+dos = 30
 result = uno + dos
 
 # is called a variable, because we can change the value

@@ -13,5 +13,3 @@ print(r'C:\\somepath\n')
 #'he's my friend'
 'he\'s my friend'
 
-# to see all string methods
-dir("a string")
