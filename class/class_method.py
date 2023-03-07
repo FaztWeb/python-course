@@ -4,14 +4,12 @@ class Worker():
         self.area = area
         self.salary = salary 
     
+    def show_info(self):
+        print(f"Hello I'm {self.fullname}, I work in {self.area}, and I earn {self.salary}")
+
 juan = Worker("Juan Perez", "sales", salary = 1400)
 david = Worker("David Perez", "IT", salary = 2000)
 
-print(juan.fullname)
-print(juan.area)
-print(juan.salary)
-
-print(david.fullname)
-print(david.area)
-print(david.salary)
+juan.show_info()
+david.show_info()
 
