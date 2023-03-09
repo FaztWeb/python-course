@@ -11,9 +11,3 @@ while age < 18:
     print("Congrats, You are " + str(age))
 
 # example 3
-while True:
-    myInput = input("> ")
-    if myInput == 'bye':
-        break;
-    else:
-        print(myInput)

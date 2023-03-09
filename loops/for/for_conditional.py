@@ -1,3 +1,16 @@
+# emails
+emails = [
+    'me@hotmail.com',
+    'aaron@outlook.com',
+    'ryan@gmail.com'
+]
+
+# check if email is gmail
+for item in emails:
+    if 'gmail' in item:
+        print(item)
+
+# example temperatures
 temperatures=[10,-20,-289,100]
 
 # converto from celsius to fahrenheit function

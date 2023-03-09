@@ -1,3 +1,13 @@
+"""
+while True:
+    myInput = input("> ")
+    if myInput == 'bye':
+        break;
+    else:
+        print(myInput)
+"""
+
+# 
 password = ''
 
 while password != 'python3':
