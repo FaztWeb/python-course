@@ -28,7 +28,6 @@ g = 0o377 # octal
 print(g) # 255
 print(type(g)) # <class 'int'>
 
-
 # floating points
 print(2.0 + 5) # 7.0
 print(23 / 5) # 4.6
