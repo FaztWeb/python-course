@@ -3,7 +3,6 @@
 "hello"[1] # e
 "hello!"[-1] # !
 
-
 # second example
 message = "Python is fun"
 

@@ -5,7 +5,8 @@
 "hello " * 10
 
 # Scaped Characters
-print('Line1\nLine2\nLine3')
+print('Line1\nLine2\nLine3') # break lines
+print("test\a") # make a beep
 
 # raw print
 print(r'C:\\somepath\n')
