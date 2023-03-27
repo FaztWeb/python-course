@@ -4,13 +4,23 @@
 # print("hello " + 1) # error
 "hello " * 10
 
-# Scaped Characters
-print('Line1\nLine2\nLine3') # break lines
-print("test\a") # make a beep
+# join
 
-# raw print
-print(r'C:\\somepath\n')
+palabras = ["Hola", "mundo", "desde", "Python"]
+separador = " "
+mensaje = separador.join(palabras)
+print(mensaje) # "Hola mundo desde Python"
 
-#'he's my friend'
-'he\'s my friend'
+# F-string
 
+nombre = "Juan"
+edad = 30
+mensaje = f"Mi nombre es {nombre} y tengo {edad} años"
+print(mensaje) # "Mi nombre es Juan y tengo 30 años"
+
+# format
+
+nombre = "Juan"
+edad = 30
+mensaje = "Mi nombre es {} y tengo {} años".format(nombre, edad)
+print(mensaje) # "Mi nombre es Juan y tengo 30 años"

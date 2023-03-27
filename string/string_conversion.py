@@ -1,0 +1,6 @@
+print(str(5) + str(10)) # "510"
+print(str(30.33) + str(10)) # "30.3310"
+print(str(True) + str(False)) # "TrueFalse"
+print(str(None)) # "None"
+print(str([1, 2, 3, 4])) # "[1, 2, 3, 4]"
+print(str({"name": "Ryan", "lastname": "Ray"})) # "{'name': 'Ryan', 'lastname': 'Ray'}"

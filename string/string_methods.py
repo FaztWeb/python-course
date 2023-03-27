@@ -272,3 +272,6 @@ print(message.zfill(20))
 # start with
 "Hello world".split()
 "Hello world".split("l") # ['He', '', 'o wor', 'd']
+
+# to obtain help for a replace method
+# help("".replace)
